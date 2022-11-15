@@ -57,8 +57,13 @@ document.body.appendChild(document.createElement('hr'))
 submissionTasks = [
     'Create a new repository on Github, named <strong> lab12 (1 point). </strong>',
     'Clone this repository to your local machine and work inside it.',
-    `Create a new HTML file, called <strong> index.html </strong>, which has only one <h1> tag with "Hello, World!" message (1 point).`
-    
+    `Create a new HTML file, called <strong> index.html </strong>, which has only one h1 tag with "Hello, World!" message <strong>(1 point)</strong>.`,
+    'Create a new JavaScript file, called <strong> main.js</strong>, which must contain your program (assignment) described above <strong>(1 point)</strong>.',
+    'Link this <strong> main.js </strong> file to your <strong> index.html </strong> file (Note: place your script at the end of the <strong> body </strong> section).',
+    'Write a JavaScript program in <strong> main.js </strong>  to make your <strong> index.html </strong>  look identical to this HTML file <strong> (5 points) </strong> .',
+    'After you finish your work, submit it to the Github <strong>(2 points)/strong>.'
 ]
 
-createTasks('Submission', 'To submit your work, follow these instructions:', )
+createTasks('Submission', 'To submit your work, follow these instructions:', submissionTasks)
+
+document.body.appendChild(document.createElement('hr'))
